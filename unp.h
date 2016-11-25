@@ -12,7 +12,7 @@
 #include <sys/wait.h>
 
 #define LISTENQ 10
-#define SERV_PORT 9877
+#define SERV_PORT 8888
 
 #define MAXLINE 8192
 #define MAXBUF 8192
