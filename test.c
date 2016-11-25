@@ -6,13 +6,9 @@ int BtoI(char *);
 
 int main()
 {
-	char sendline[100];
+	char arry[4] = "6000";
 
-	while(fgets(sendline, 100, stdin) != NULL)
-	{
-		fputs(sendline, stdout);
-	}
-	printf("haha exit!\n");
+	printf("%d\n", BtoI(arry));
 }
 
 void ItoB(int i, char *arry)

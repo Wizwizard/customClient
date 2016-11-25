@@ -24,7 +24,7 @@ ssize_t readn(int fd, void *vptr, size_t n)
 				return(-1);
 		} else if (nread == 0)
 		{
-			break;
+			continue;
 		}
 		nleft -= nread;
 		ptr += nread;
